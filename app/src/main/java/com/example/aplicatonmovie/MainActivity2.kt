@@ -1,8 +1,10 @@
 package com.example.aplicatonmovie
 
+import android.content.Intent
 import android.os.Bundle
 import android.view.Menu
 import android.view.MenuItem
+import android.widget.Button
 import android.widget.Toast
 import com.google.android.material.bottomnavigation.BottomNavigationView
 import androidx.appcompat.app.AppCompatActivity
@@ -36,6 +38,8 @@ private lateinit var binding: ActivityMain2Binding
     override fun onCreateOptionsMenu(menu: Menu): Boolean {
         menuInflater.inflate(R.menu.option_menu, menu)
         return true
+
+
     }
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
         when (item.itemId){
@@ -52,7 +56,8 @@ private lateinit var binding: ActivityMain2Binding
                 return true
             }
             R.id.menu4 ->{
-                Toast.makeText(this,"Not Available yet", Toast.LENGTH_SHORT).show()
+                val intent = Intent(this@MainActivity2,MainActivity::class.java)
+                startActivity(intent)
                 return true
             }
             else -> return true
