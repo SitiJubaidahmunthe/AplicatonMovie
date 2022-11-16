@@ -19,7 +19,7 @@
             android:title="settings" />
         <item
             android:id="@+id/menu4"
-            android:title="logout" />
+            android:title="logout"/>
     </group>
 
 </menu>

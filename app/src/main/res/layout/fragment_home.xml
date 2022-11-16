@@ -184,7 +184,7 @@
                 android:layout_weight="1"
                 android:backgroundTint="#9C27B0"
                 android:text="Drama"
-                android:textColor="#2E1632" />
+                android:textColor="#FFFFFF" />
 
             <Space
                 android:layout_width="5dp"
@@ -198,7 +198,7 @@
                 android:layout_weight="1"
                 android:backgroundTint="#9C27B0"
                 android:text="Comedy"
-                android:textColor="#2E1632" />
+                android:textColor="#FFFFFF" />
 
             <Space
                 android:layout_width="5dp"
@@ -212,7 +212,7 @@
                 android:layout_weight="1"
                 android:backgroundTint="#9C27B0"
                 android:text="Horror"
-                android:textColor="#2E1632" />
+                android:textColor="#FFFFFF" />
 
         </LinearLayout>
 
